@@ -3,7 +3,6 @@ import { Cart, CartItem } from '../models/cart.model';
 import { CartService } from 'src/app/services/cart.service';
 import { _countGroupLabelsBeforeOption } from '@angular/material/core';
 import { HttpClient } from '@angular/common/http';
-import { loadStripe} from '@stripe/stripe-js';
 
 @Component({
   selector: 'app-cart',
